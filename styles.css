@@ -1,0 +1,2178 @@
+/* creating the color variable */
+:root {
+    --h2-green: #023047;
+    --p-green: #023047;
+    --h2-white: #FFFFFF;
+    --p-white: #FFFFFF;
+    --bg-white: #FFFFFF;
+    --btn-orange: #DA722C;
+    --bg-orange: #DA722C;
+    --p-orange: #DA722C;
+    --btn-green: #023047;
+    --bg-blue: #057ADA;
+    --bg-light-blue: #6F7DFB;
+    --bg-dark-blue: #26308C;
+    --bg-light-navy-type: #3B448F;
+    --box-shadow: #00000057;
+    --bg-black: #000000;
+    --bg-footer: #070917;
+    --nav-bg-black: #070917;
+}
+
+
+
+/* Given body setting */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-resp {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 3;
+    top: 0;
+    background-color: var(--nav-bg-black);
+    display: none;
+    font-family: 'poppines' system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav-resp .nav-resp-box {
+    width: 145px;
+    height: 252px;
+    margin-top: 285px;
+    margin-left: 135px;
+}
+
+.nav-resp .nav-resp-box p {
+    color: var(--p-white);
+    text-align: center;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.nav-resp .nav-resp-box button {
+    width: 145px;
+    height: 48px;
+    padding: 12px 32px;
+    background-color: var(--btn-orange);
+    border: none;
+    outline: none;
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: var(--p-white);
+    font-family: 'poppines' system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#close-btn, #menu-btn {
+    position: absolute;
+    top: 60px;
+    left: 342px;
+    display: none;
+}
+
+#side-menu {
+    display: none;
+}
+
+/* Getting section First CSS */
+
+.section-1 {
+    width: 100%;
+    height: 768px;
+    border-top: 1px solid transparent;
+    background: linear-gradient(var(--bg-light-blue), var(--bg-dark-blue));
+}
+
+/* Getting Nevabar CSS */
+
+.nav-bar {
+    width: 1134px;
+    height: 59px;
+    margin: 42px 115px 118px 117px;
+    border-radius: 24px;
+    display: flex;
+}
+
+/* Logo of Navbar CSS */
+
+.nav-bar .img-div {
+    width: 69px;
+    height: 47px;
+    margin-top: 6px;
+}
+
+.nav-bar .img-div img {
+    width: 100%;
+    height: 100%;
+}
+
+#menu-btn {
+    display: inline;
+    width: 26px;
+    height: 13px;
+    position: absolute;
+    left: 348px;
+    top: 75px;
+    display: none;
+}
+
+/* Link of Navbar CSS */
+
+.nav-bar .nav-link {
+    width: 534px;
+    height: 59px;
+    margin-left: 531px;
+    display: flex;
+    padding: 0;
+}
+
+.nav-bar .nav-link p {
+    font-family: 'poppines' system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font: 16px;
+    font-family: "Raleway", sans-serif;
+    color: var(--h2-white);
+    margin-left: 60px;
+    margin-top: 18px;
+}
+
+.nav-bar .nav-link p:first-child {
+    margin-left: 0;
+}
+
+
+/* Navbar CSS Button CSS */
+
+.nav-bar .nav-link button {
+    width: Hug(155px);
+    height: Hug(59px);
+    margin-left: 60px;
+    margin-top: 0px;
+    background-color: var(--btn-green);
+    padding: 16px 32px;
+    border-radius: 24px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    line-height: 27px;
+    color: var(--h2-white);
+    text-wrap: nowrap;
+    outline: none;
+    border: none;
+
+}
+
+
+/* First Section Main Container CSS */
+
+.Hero-1 {
+    height: 550px;
+    display: flex;
+}
+
+/* First Section Content Side CSS */
+
+.content {
+    width: 457px;
+    height: 300px;
+    margin-left: 117px;
+}
+
+.content p:first-child {
+    height: 126px;
+    width: 457px;
+    margin-top: 0px;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 62.5px;
+    font-family: "Raleway", sans-serif;
+    color: var(--h2-white);
+    padding: 0;
+}
+
+.content p {
+    height: 96px;
+    width: 457px;
+    margin-top: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    color: var(--h2-white);
+}
+
+/* First Section Content Side Button CSS */
+
+
+.content button {
+    width: 183px;
+    height: 59px;
+    border-radius: 24px;
+    padding: 16px 32px;
+    margin-top: 30px;
+    outline: none;
+    border: none;
+    background-color: var(--btn-orange);
+    display: inline-flex;
+    color: var(--h2-white);
+    text-wrap: nowrap;
+}
+
+/* First Section Content Side Button Image CSS */
+
+.content button .btn-img {
+    width: 18px;
+    height: 18px;
+    margin-right: 4px;
+    margin-top: 3px;
+}
+
+/* First Section Content Side Button Text CSS */
+
+.content button span {
+    width: 91px;
+    height: 27px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+
+.Image-side-content {
+    display: inline-flex;
+}
+
+/* First Section Completly Div CSS */
+
+.hero-center-section {
+    width: 268px;
+    height: 100%;
+}
+
+
+/* First Section Center Boxes CSS */
+
+/* First Box CSS */
+.hero-center-section .First-box {
+    width: 213px;
+    height: 98px;
+    border-radius: 24px;
+    margin: 104px 5px 141px 50px;
+}
+
+
+/* First Box Lower Side CSS */
+.hero-center-section .First-box .lower-box {
+    width: 206px;
+    height: 97px;
+    background: linear-gradient(var(--bg-light-blue), var(--bg-light-navy-type));
+    float: right;
+    border-radius: 24px;
+}
+
+
+/* First Box Up Side CSS */
+
+.hero-center-section .First-box .uper-box {
+    width: 206px;
+    height: 90px;
+    margin: -1px 7px 8px -7px;
+    background-color: var(--bg-white);
+    border-radius: 24px;
+}
+
+
+/* First Box Up Side Writeing CSS */
+
+.hero-center-section .First-box .uper-box span {
+    color: var(--h2-green);
+    font-size: 36px;
+    line-height: 45px;
+    margin-top: 0px;
+    font-family: "Poppins", sans-serif;
+    display: block;
+    position: relative;
+    top: 10px;
+    left: 69px;
+    right: 69px;
+    font-weight: 700;
+}
+
+.hero-center-section .First-box .uper-box p {
+    color: var(--h2-green);
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Poppins", sans-serif;
+    display: block;
+    font-weight: 400;
+    text-align: center;
+    margin: 10px 34px 18px 33px;
+}
+
+
+
+/* Second Box CSS */
+
+.hero-center-section .second-box {
+    width: 188px;
+    height: 98px;
+    border-radius: 24px;
+    margin-right: 64px;
+}
+
+
+/* Second Box Lower Side CSS */
+
+.hero-center-section .second-box .low-box {
+    width: 185px;
+    height: 95px;
+    background: linear-gradient(var(--bg-light-blue), var(--bg-light-navy-type));
+    float: right;
+    border-radius: 24px;
+}
+
+
+/* Second Box Up Side CSS */
+
+.hero-center-section .second-box .up-box {
+    width: 183px;
+    height: 90px;
+    margin: -3px 5px 8px -3px;
+    background-color: var(--bg-white);
+    border-radius: 24px;
+}
+
+
+/* Second Box Up Side Writeing CSS */
+
+.hero-center-section .second-box .up-box span {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
+    font-family: "Poppins", sans-serif;
+    display: inline-flex;
+    position: relative;
+    top: 9px;
+    left: 44px;
+}
+
+.hero-center-section .second-box .up-box span img {
+    width: 44px;
+    height: 44px;
+    margin-left: 4px;
+}
+
+.hero-center-section .second-box .up-box p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: "Poppins", sans-serif;
+    margin: 10px 30px 16px 41px;
+}
+
+/* Section First Hero Image CSS */
+.section-1 .img {
+    margin: -33px 0px 0px 0px;
+    float: right;
+
+}
+
+/* Start Section Second CSS */
+
+.section-2 {
+    height: 746px;
+}
+
+/* Creat A Main Box CSS*/
+.section-2-main {
+    width: 1135px;
+    height: 546px;
+    margin: 100px 0px 100px 116px;
+    display: flex;
+}
+
+
+/* Creat Right side Main Box CSS*/
+.right-side {
+    width: 474px;
+    height: 546px;
+    display: flex;
+}
+
+
+/* Post Back Strat Line CSS*/
+.line {
+    width: 28px;
+    height: 546px;
+    margin-left: 102px;
+    border-radius: 24px;
+    background-color: var(--btn-green);
+}
+
+/* First Post Of Jane Coopar CSS */
+.jane-cooper {
+    width: 442px;
+    height: 222px;
+    margin-top: 35px;
+    position: absolute;
+    left: 117px;
+    border-radius: 24px;
+    padding: 0px;
+    background-color: var(--bg-white);
+    box-shadow: 0px 9px 36px var(--box-shadow);
+}
+
+/* Jane Coopar Setion Title CSS */
+.jane-cooper-tital {
+    width: 442;
+    height: 102px;
+    border-radius: 24px;
+    margin-top: -15px;
+    background-color: var(--bg-light-blue);
+}
+
+.jane-cooper-tital .h2 {
+    font-size: 18px;
+    font-weight: 900px;
+    font-family: "Poppins", sans-serif;
+    color: var(--h2-white);
+    padding: 24px 32px;
+}
+
+/* Jane Coopar Post Bottom CSS*/
+.jane-coopar-bottom {
+    display: flex;
+}
+
+.jane-coopar-bottom h2 {
+    width: 152px;
+    height: 59px;
+    margin: 30px 106px 30px 32px;
+    font-size: 24px;
+    line-height: 25px;
+    font-weight: 900;
+    font-family: "Poppins", sans-serif;
+    text-wrap: nowrap;
+}
+
+.jane-coopar-bottom h2 p {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+
+.jane-coopar-bottom div {
+    width: 120px;
+    height: 120px;
+}
+
+/* Jane Coopar Image CSS */
+.jane-coopar-bottom div img {
+    margin-top: -12px;
+}
+
+/* Second Post Of Jacob Jones CSS */
+.jacob-jones {
+    width: 442px;
+    height: 195px;
+    border-radius: 24px;
+    margin-top: 307px;
+    margin-left: 24px;
+    position: absolute;
+    background-color: var(--bg-white);
+    box-shadow: 0px 9px 36px var(--box-shadow);
+}
+
+/* Second Post Of Jacob Jones Title CSS */
+
+.jacob-cooper-tital {
+    width: 442;
+    height: 75px;
+    border-radius: 24px;
+    margin-top: -15px;
+    background-color: var(--bg-orange);
+}
+
+.jacob-cooper-tital .h2 {
+    font-size: 18px;
+    font-weight: 900px;
+    font-family: "Poppins", sans-serif;
+    color: var(--h2-white);
+    padding: 24px 32px;
+}
+
+/* Second Post Of Jacob Jones Bottom CSS */
+
+.jacob-coopar-bottom {
+    display: flex;
+}
+
+.jacob-coopar-bottom h2 {
+    width: 152px;
+    height: 59px;
+    margin: 30px 106px 30px 32px;
+    font-size: 24px;
+    line-height: 25px;
+    font-weight: 900;
+    font-family: "Poppins", sans-serif;
+    text-wrap: nowrap;
+}
+
+.jacob-coopar-bottom h2 p {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    text-wrap: nowrap;
+}
+
+.jacob-coopar-bottom div {
+    width: 120px;
+    height: 120px;
+}
+
+/* Second Post Of Jacob Jones Image CSS */
+
+.jacob-coopar-bottom div img {
+    margin-top: -12px;
+}
+
+.jacob-jones {
+    width: 442px;
+    height: 195px;
+    border-radius: 24px;
+    margin-top: 307px;
+    margin-left: 24px;
+    position: absolute;
+    background-color: var(--bg-white);
+    box-shadow: 0px 9px 36px var(--box-shadow);
+}
+
+/* Second Section Left Side CSS */
+
+.left-side {
+    width: 559px;
+    height: 377px;
+    margin: 85px 15px 84px 102px;
+}
+
+/* Second Section Left Side Title CSS */
+.left-side h1 {
+    font-size: 60px;
+    font-weight: 900px;
+    line-height: 72px;
+    font-family: "Raleway", sans-serif;
+    margin-top: 0;
+    margin-bottom: 0px;
+    color: var(--h2-green);
+}
+
+/* Second Section Left Side Discription CSS */
+
+.left-side p {
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 32px;
+    font-family: "Poppins", sans-serif;
+    margin: 16px 0px 0px 1px;
+    color: var(--p-green);
+}
+
+/* Second Section Left Side Button CSS */
+
+.left-side button {
+    width: 167px;
+    height: 59px;
+    border-radius: 24px;
+    padding: 16px 32px;
+    margin-top: 30px;
+    background-color: var(--btn-orange);
+    outline: none;
+    border: none;
+    color: var(--p-white);
+    line-height: 27px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Third Section CSS */
+
+.section-3 {
+    height: 785px;
+    padding-top: 70px;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(var(--bg-light-blue), var(--bg-dark-blue));
+}
+
+/* Third Section Heading CSS */
+
+.section-3 .H2 {
+    width: 524px;
+    height: 72px;
+    margin: 0px 421px 56px 421px;
+}
+
+.section-3 h1 {
+    font-size: 60px;
+    line-height: 72px;
+    font-weight: 900;
+    color: var(--h2-white);
+    text-align: center;
+    margin-top: 0px;
+}
+
+/* Third Section Post Main Setion CSS */
+
+.section-3-main {
+    width: 1125px;
+    height: 422px;
+    margin: 0px 115px 0px 116px;
+    display: flex;
+}
+
+/* Third Section Posts Boxes CSS */
+
+.section-3-main .coruse-box {
+    width: 526px;
+    height: 422px;
+    border-radius: 24px;
+    background-color: var(--bg-white);
+}
+
+.section-3-main .coruse-box-inner {
+    width: 462px;
+    height: 418px;
+    border-radius: 24px;
+    margin: 0px 32px;
+}
+
+/* Third Section Posts Boxes Image CSS */
+
+.section-3-main .coruse-box-inner .course-image {
+    width: 462px;
+    height: 260px;
+    margin: -4px 0px 0px -8px;
+    border-radius: 24px;
+}
+
+/* Third Section Posts Boxes Discription CSS */
+
+.section-3-main .coruse-box-inner .course-title {
+    width: 462px;
+    height: 90px;
+    margin-top: 30px;
+    border-radius: 24px;
+    display: in;
+    display: inline-flex;
+}
+
+.section-3-main .coruse-box-inner .dev-name {
+    width: 374px;
+    height: 90px;
+}
+
+/* Third Section Second Post Boxes CSS */
+
+.section-3-main .coruse-box-inner .dev-name h1 {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 45px;
+    text-align: left;
+    color: var(--h2-green);
+}
+
+/* Third Section Posts Boxes Clock and HRS CSS */
+
+.section-3-main .coruse-box-inner .course-title .Clock-side {
+    width: 57px;
+    height: 20px;
+    float: right;
+    margin: 33px 0px 33px 26px;
+    color: var(--p-green);
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    display: inline-flex;
+}
+
+.section-3-main .coruse-box-inner .course-title .Clock-side img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+/* Third Section Posts Boxes Over Line CSS */
+
+.section-3-main .line {
+    width: 462px;
+    height: 8px;
+    margin-left: 32px;
+    border-radius: 24px;
+    background-color: var(--btn-green);
+}
+
+/* Third Section Second Post Boxes CSS */
+
+.section-3-main .coruse-box2 {
+    width: 526px;
+    height: 422px;
+    border-radius: 24px;
+    margin-left: 73px;
+    background-color: var(--bg-white);
+}
+
+/* Third Section Button CSS */
+
+.section-3 button {
+    width: 168px;
+    height: 59px;
+    border-radius: 24px;
+    margin: 40px 100px 70px 1075px;
+    background-color: var(--btn-orange);
+    outline: none;
+    border: none;
+    padding: 16px, 32px, 16px, 32px;
+    color: var(--p-white);
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 700;
+}
+
+/* Forth Section CSS */
+
+.section-4 {
+    height: 462px;
+    border: 1px solid transparent;
+    font-family: "Poppins", sans-serif;
+    text-wrap: nowrap;
+}
+
+/* Forth Section Main CSS */
+
+.section-4 .section-4-main {
+    width: 1070px;
+    height: 262px;
+    margin: 100px 148px;
+}
+
+/* Forth Section Heading CSS */
+
+.section-4 .section-4-main .heading {
+    width: 680px;
+    height: 72px;
+    margin: 0px 195px;
+    text-align: center;
+}
+
+.section-4 .section-4-main .heading h1 {
+    font-size: 60px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: var(--h2-green);
+}
+
+/* Forth Section Discription CSS */
+
+.section-4 .section-4-main .heading p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    margin-top: 15px;
+    color: var(--p-green);
+}
+
+/* Forth Section Download Types CSS */
+
+.section-4 .section-4-main .our-app {
+    width: 100%;
+    height: 100px;
+    margin-top: 90px;
+    display: inline-flex;
+}
+
+/* Forth Section AppStore Download CSS */
+
+.section-4 .section-4-main .our-app .app-stor {
+    width: 310px;
+    height: 100px;
+    margin: 0px 30px 0px 210px;
+    display: inline-flexs;
+    background-color: var(--bg-black);
+    color: var(--h2-white);
+}
+
+.section-4 .section-4-main .our-app .app-stor img {
+    width: 60px;
+    height: 60px;
+    margin: 20px 6px 20px 31px;
+    display: inline;
+}
+
+.section-4 .section-4-main .our-app .app-stor h1 {
+    width: 118px;
+    height: 48px;
+    float: right;
+    display: inline;
+    margin-top: 26px;
+    margin-right: 80px;
+    font-size: 24px;
+    font-weight: 400px;
+    line-height: 48px;
+}
+
+/* Forth Section PlayStore Box CSS */
+
+.section-4 .section-4-main .our-app .play-stor {
+    width: 310px;
+    height: 100px;
+    margin: 0px 210px 0px 30px;
+    background-color: var(--bg-black);
+}
+
+.section-4 .section-4-main .our-app .play-stor img {
+    width: 60px;
+    height: 60px;
+    margin: 20px 14px 20px 31px;
+    display: inline;
+}
+
+.section-4 .section-4-main .our-app .play-stor h1 {
+    width: 143px;
+    height: 48px;
+    float: right;
+    display: inline;
+    margin-top: 26px;
+    margin-right: 47px;
+    font-size: 24px;
+    font-weight: 400px;
+    line-height: 48px;
+    color: var(--h2-white);
+}
+
+
+/* Footer CSS */
+footer {
+    width: 100%;
+    height: 350px;
+    background-color: var(--bg-footer);
+    padding-top: 70px;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Footer Main CSS */
+footer .footer {
+    display: inline-flex;
+}
+
+/* Footer Links CSS */
+footer .footer .footer-links {
+    width: 179px;
+    height: 205px;
+    margin-left: 116px;
+    color: white;
+}
+
+/* Footer Login Links CSS */
+footer .footer .course-login {
+    width: 112px;
+    height: 164px;
+    margin-left: 132px;
+}
+
+/* Footer Content Section CSS */
+
+footer .footer .footer-content {
+    width: 545px;
+    height: 187px;
+    margin-left: 132px;
+}
+
+/* Links Headin CSS */
+dt {
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 700;
+    color: var(--p-orange);
+    margin-bottom: 4px;
+}
+
+/* Links CSS */
+dd {
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    color: var(--p-white);
+    margin-bottom: 1px;
+    margin-left: 24px;
+    text-wrap: nowrap;
+}
+
+/* Facebook and Instagrame CSS */
+dd img {
+    margin-top: 16px;
+    margin-right: 24px;
+}
+
+/* Input Of Footer CSS */
+dd input {
+    width: 495px;
+    height: 39px;
+    border-radius: 8px;
+    margin-top: 26px;
+    padding: 3px 0px 4px 27px;
+    outline: none;
+    border: none;
+}
+
+/* Input Submit Button CSS */
+dd button {
+    width: 135px;
+    height: 32px;
+    border-radius: 8px;
+    background-color: var(--btn-green);
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 1px 27px 1px 28px;
+    color: var(--p-white);
+    position: absolute;
+    right: 132px;
+    top: 3179px;
+}
+
+/* Footer End Of Discription CSS */
+footer .footer-last {
+    width: 100%;
+    height: 32px;
+}
+
+footer .footer-last p {
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    color: var(--p-white);
+    margin: 32px 0px 70px 116px;
+}
+
+
+@media only screen and (max-width: 834px){
+    .section-1 {
+        width: 100%;
+        height: 1194px;
+    }
+
+}
+
+/* First Section Of Tablet Mode */
+@media only screen and (max-width: 834px) {
+    #close-btn, #menu-btn {
+        position: absolute;
+        top: 60px;
+        left: 342px;
+        display: none;
+    }
+    
+    #side-menu {
+        display: none;
+    }
+    
+    .section-1 {
+        width: 100%;
+        height: 1194px;
+    }
+
+    /* Getting Nevabar CSS */
+
+    .nav-bar {
+        width: 714px;
+        height: 48px;
+        margin: 60px 0px 155px 60px;
+    }
+
+    /* Logo of Navbar CSS */
+
+    .nav-bar .img-div {
+        width: 69;
+        height: 47px;
+        margin-top: 0px;
+    }
+
+    .nav-bar .img-div img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    /* Link of Navbar CSS */
+
+    .nav-bar .nav-link {
+        width: 470px;
+        height: 48px;
+        margin-left: 175px;
+    }
+
+    .nav-bar .nav-link p {
+        margin-left: 42px;
+        margin-top: 12px;
+    }
+
+
+
+    /* Navbar CSS Button CSS */
+
+    .nav-bar .nav-link button {
+        width: 174px;
+        height: 48px;
+        margin-left: 42px;
+        padding: 12px 32px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+    /* First Section Main Container CSS */
+
+    .Hero-1 {
+        width: 100%;
+        height: 905px;
+        display: block;
+        margin-right: 0;
+    }
+
+    /* First Section Content Side CSS */
+
+    .content {
+        width: 634px;
+        height: 365px;
+        margin-left: 100px;
+    }
+
+    .content p:first-child {
+        height: 126px;
+        width: 634px;
+    }
+
+    .content p {
+        width: 634px;
+        height: 96px;
+        margin-top: 16px;
+    }
+
+    /* First Section Content Side Button CSS */
+
+
+    .content button {
+        width: 171px;
+        height: 48px;
+        padding: 12px 32px;
+        margin-right: 0;
+    }
+
+    /* First Section Content Side Button Image CSS */
+
+    .content button .btn-img {
+        width: 16px;
+        height: 16px;
+        margin-right: 16px 4px 16px 32px;
+        margin-top: 3px;
+    }
+
+
+
+    .Image-side-content {
+        display: inline-flex;
+    }
+
+    /* First Section Completly Div CSS */
+
+    .hero-center-section {
+        width: 258px;
+        height: 560px;
+        margin-top: 0px;
+        margin-right: 0;
+        margin-left: 100px;
+
+    }
+
+
+    /* First Section Center Boxes CSS */
+
+    /* First Box CSS */
+    .hero-center-section .First-box {
+        margin: 184px 7px 118px 38px;
+    }
+
+
+    /* Second Box CSS */
+
+    .hero-center-section .second-box {
+        margin: 0px 31px 117px 0px;
+    }
+
+
+    /* Section First Hero Image CSS */
+    .section-1 .img {
+        width: 470px;
+        margin: -16px 0px 0px 0px;
+        float: right;
+    }
+
+    /* Start Section Second CSS */
+
+    .section-2 {
+        width: 100%;
+        height: 960px;
+    }
+
+    /* Creat A Main Box CSS*/
+    .section-2-main {
+        width: 1135px;
+        height: 546px;
+        margin: 100px;
+        display: block;
+    }
+
+
+    /* Creat Right side Main Box CSS*/
+    .right-side {
+        width: 634px;
+        height: 500px;
+        position: absolute;
+        margin-top: 24px;
+        top: 1482px;
+    }
+
+
+    /* Post Back Strat Line CSS*/
+    .line {
+        height: 500px;
+        margin-left: 87px;
+    }
+
+    /* First Post Of Jane Coopar CSS */
+    .jane-cooper {
+        width: 634px;
+        height: 195px;
+        margin-top: 31px;
+        position: absolute;
+        left: 0px;
+    }
+
+    /* Jane Coopar Setion Title CSS */
+    .jane-cooper-tital {
+        width: 634px;
+        height: 75px;
+    }
+
+    .jane-coopar-bottom h2 {
+        width: 344px;
+    }
+
+    .jane-coopar-bottom div {
+        width: 120px;
+        height: 120px;
+    }
+
+    /* Jane Coopar Image CSS */
+    .jane-coopar-bottom div img {
+        margin-top: -12px;
+    }
+
+    .jacob-jones {
+        width: 634px;
+        height: 195px;
+        margin-left: 0px;
+    }
+
+    /* Second Post Of Jacob Jones Title CSS */
+
+    .jacob-cooper-tital {
+        width: 634px;
+    }
+
+    .jacob-coopar-bottom h2 {
+        width: 344px;
+    }
+
+    /* Second Section Left Side CSS */
+
+    .left-side {
+        width: 634px;
+        height: 164px;
+        margin: 0px;
+        position: absolute;
+        top: 1294px;
+    }
+
+    /* Second Section Left Side Title CSS */
+    .left-side h1 {
+        font-size: 40px;
+        line-height: 48px;
+        margin-bottom: 20px;
+    }
+
+    /* Second Section Left Side Discription CSS */
+
+    .left-side p {
+        margin: 0px;
+    }
+
+    /* Second Section Left Side Button CSS */
+
+    .left-side button {
+        position: absolute;
+        top: 770px;
+        left: 470px;
+        width: 155px;
+        height: 48px;
+        padding: 12px 32px;
+        line-height: 24px;
+        font-size: 16px;
+    }
+
+    /* Third Section CSS */
+
+    .section-3 {
+        width: 100%;
+        height: 1090px;
+    }
+
+    /* Third Section Heading CSS */
+
+    .section-3 .H2 {
+        height: 48px;
+        margin: 0px 155px 66px 153px;
+    }
+
+    .section-3 h1 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    /* Third Section Post Main Setion CSS */
+
+    .section-3-main {
+        width: 632px;
+        height: 834px;
+        margin: 0px 100px 0px 100px;
+        display: block;
+    }
+
+    /* Third Section Posts Boxes CSS */
+
+    .section-3-main .coruse-box {
+        width: 632px;
+        height: 373px;
+    }
+
+    .section-3-main .coruse-box-inner {
+        width: 568px;
+        height: 365px;
+        margin: 0px 32px;
+    }
+
+    /* Third Section Posts Boxes Image CSS */
+
+    .section-3-main .coruse-box-inner .course-image {
+        width: 568px;
+        height: 260px;
+        margin: 0px;
+    }
+
+    .section-3-main .coruse-box-inner .course-image img {
+        width: 590px;
+        height: 260px;
+        margin: -5px 0px 0px -11px;
+    }
+
+    /* Third Section Posts Boxes Discription CSS */
+
+    .section-3-main .coruse-box-inner .course-title {
+        width: 568px;
+        height: 45px;
+    }
+
+    .section-3-main .coruse-box-inner .dev-name {
+        width: 480px;
+        height: 45px;
+
+    }
+
+    /* Third Section Posts Boxes Clock and HRS CSS */
+
+    .section-3-main .coruse-box-inner .course-title .Clock-side {
+        width: 63px;
+        height: 16px;
+        margin: 10px 0px 10px 26px;
+    }
+
+    .section-3-main .coruse-box-inner .course-title .Clock-side img {
+        width: 18px;
+        height: 18px;
+        margin-top: 3px;
+        margin-right: 5px;
+    }
+
+    /* Third Section Posts Boxes Over Line CSS */
+
+    .section-3-main .line {
+        width: 568px;
+        height: 8px;
+        margin-left: 32px;
+        border-radius: 24px;
+        background-color: var(--btn-green);
+    }
+
+    /* Third Section Second Post Boxes CSS */
+
+    .section-3-main .coruse-box2 {
+        width: 632px;
+        height: 400px;
+        border-radius: 24px;
+        margin-top: 30px;
+        margin-left: 0;
+        background-color: var(--bg-white);
+    }
+
+    .section-3-main .coruse-box2 .coruse-box-inner .dev-name {
+        width: 480px;
+        height: 90px;
+    }
+
+    .section-3-main .coruse-box2 .coruse-box-inner .course-title .Clock-side {
+        width: 63px;
+        height: 16px;
+        margin: 33px 0px 10px 33px;
+    }
+
+    .section-3-main .coruse-box2 .line {
+        width: 568px;
+        height: 8px;
+        margin-left: 32px;
+        margin-top: 28px;
+        border-radius: 24px;
+        background-color: var(--btn-green);
+    }
+
+
+    /* Third Section Button CSS */
+
+    .section-3 button {
+        width: 157px;
+        height: 48px;
+        border-radius: 24px;
+        margin: 0px 100px 70px 575px;
+        background-color: var(--btn-orange);
+        outline: none;
+        border: none;
+        padding: 16px, 32px, 16px, 32px;
+        color: var(--p-white);
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: 700;
+    }
+
+    .section-4 {
+        width: 834px;
+        height: 412px;
+    }
+
+    /* Forth Section Main CSS */
+
+    .section-4 .section-4-main {
+        width: 680px;
+        height: 212px;
+        margin: 100px 76px 100px 78px;
+    }
+
+    /* Forth Section Heading CSS */
+
+    .section-4 .section-4-main .heading {
+        height: 48px;
+        margin: 0px;
+    }
+
+    .section-4 .section-4-main .heading h1 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    /* Forth Section AppStore Download CSS */
+
+    .section-4 .section-4-main .our-app .app-stor {
+        margin: 0px 30px 0px 10px;
+        display: inline-flex;
+    }
+
+    .section-4 .section-4-main .our-app .app-stor img {
+        margin: 20px 14px 20px 31px;
+    }
+
+
+    /* Forth Section PlayStore Box CSS */
+
+    .section-4 .section-4-main .our-app .play-stor {
+        width: 310px;
+        height: 100px;
+        margin: 0px 210px 0px 30px;
+        display: inline-flex;
+        background-color: var(--bg-black);
+    }
+
+    .section-4 .section-4-main .our-app .play-stor img {
+        width: 60px;
+        height: 60px;
+        margin: 20px 14px 20px 31px;
+        display: inline;
+    }
+
+    .section-4 .section-4-main .our-app .play-stor h1 {
+        width: 143px;
+        height: 48px;
+        float: right;
+        display: inline;
+        margin-top: 26px;
+        margin-right: 47px;
+        font-size: 24px;
+        font-weight: 400px;
+        line-height: 48px;
+        color: var(--h2-white);
+    }
+
+    /* Footer CSS */
+    footer {
+        width: 834;
+        height: 638px;
+    }
+
+    /* Footer Main CSS */
+    footer .footer {
+        flex-wrap: wrap;
+        height: 494px;
+    }
+
+    /* Footer Links CSS */
+    footer .footer .footer-links {
+        margin-left: 100px;
+    }
+
+    /* Footer Content Section CSS */
+
+    footer .footer .footer-content {
+        margin-left: 100px;
+    }
+
+    dt {
+        margin-bottom: 14px;
+    }
+
+    /* Links CSS */
+    dd {
+        margin-bottom: 9px;
+    }
+
+    /* Facebook and Instagrame CSS */
+    dd img {
+        margin-right: 28px;
+    }
+
+    /* Input Submit Button CSS */
+    dd button {
+        height: 30px;
+        position: absolute;
+        right: 195px;
+        top: 4357px;
+    }
+
+    /* Footer End Of Discription CSS */
+    footer .footer-last {
+        width: 100%;
+        height: 32px;
+    }
+
+    footer .footer-last p {
+        font-size: 16px;
+        line-height: 32px;
+        font-weight: 400;
+        color: var(--p-white);
+        margin: 29px 0px 0px 100px;
+        /* margin-top: 29px; */
+    }
+}
+
+
+
+/* First Section Of Tablet Mode */
+@media only screen and (max-width: 414px) {
+    .section-1 {
+        width: 100%;
+        height: 955px;
+        border-top: 1px solid transparent;
+    }
+
+    /* Getting Nevabar CSS */
+
+    .nav-bar {
+        width: 350px;
+        height: 42px;
+        margin: 60px 32px 58px 32px;
+    }
+
+    #menu-btn {
+        display: block;
+    }
+
+    .nav-resp-box {
+        z-index: 3;
+    }
+
+    /* Logo of Navbar CSS */
+
+    .nav-bar .img-div {
+        width: 62;
+        height: 42px;
+        margin-top: 0px;
+    }
+
+    .nav-bar .img-div img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    /* Link of Navbar CSS */
+
+    .nav-bar .nav-link {
+        display: none;
+    }
+
+    /* First Section Main Container CSS */
+
+    .Hero-1 {
+        height: 736px;
+    }
+
+    /* First Section Content Side CSS */
+
+    .content {
+        width: 350px;
+        height: 365px;
+        margin-left: 32px;
+    }
+
+    .content p:first-child {
+        width: 350px;
+        height: 128px;
+        margin-bottom: 16px;
+        font-size: 36px;
+        font-weight: 900;
+        line-height: 45px;
+    }
+
+    .content p {
+        width: 350px;
+        height: 128px;
+        margin-top: 16px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+    }
+
+    /* First Section Content Side Button CSS */
+
+
+    .content button {
+        margin-top: 34px;
+    }
+
+    /* First Section Content Side Button Image CSS */
+
+    .content button .btn-img {
+        width: 16px;
+        height: 16px;
+        margin-right: 16px 4px 16px 32px;
+        margin-top: 3px;
+    }
+
+
+
+    .Image-side-content {
+        display: inline-flex;
+        width: 350px;
+        margin-left: 32px;
+    }
+
+    /* First Section Completly Div CSS */
+
+    .hero-center-section {
+        width: 192px;
+        height: 427px;
+        margin-top: 0px;
+        margin-right: 0;
+        margin-left: 0px;
+        z-index: 1;
+    }
+
+
+    /* First Section Center Boxes CSS */
+
+
+    /* First Box CSS */
+    .hero-center-section .First-box {
+        width: 192px;
+        height: 84px;
+        margin: 146px 0px 48px 0px;
+    }
+
+
+    /* First Box Lower Side CSS */
+    .hero-center-section .First-box .lower-box {
+        width: 192px;
+        height: 84px;
+    }
+
+
+    /* First Box Up Side CSS */
+
+    .hero-center-section .First-box .uper-box {
+        width: 182px;
+        height: 75px;
+        margin: 0px 10px 9px 0px;
+    }
+
+
+    /* First Box Up Side Writeing CSS */
+
+    .hero-center-section .First-box .uper-box span {
+        font-size: 30px;
+        line-height: 37px;
+        position: relative;
+        top: 6px;
+        left: 62px;
+        right: 63px;
+        font-weight: 700;
+    }
+
+    .hero-center-section .First-box .uper-box p {
+        font-size: 14px;
+        line-height: 17px;
+        margin: 5px 35px 13px 26px;
+    }
+
+
+
+    /* Second Box CSS */
+
+    .hero-center-section .second-box {
+        width: 172px;
+        height: 80px;
+        margin-right: 0px;
+    }
+
+
+    /* Second Box Lower Side CSS */
+
+    .hero-center-section .second-box .low-box {
+        width: 172px;
+        height: 80px;
+        float: left;
+    }
+
+
+    /* Second Box Up Side CSS */
+
+    .hero-center-section .second-box .up-box {
+        width: 160px;
+        height: 75px;
+        margin: 0px 12px 5px 0px;
+    }
+
+
+    /* Second Box Up Side Writeing CSS */
+
+    .hero-center-section .second-box .up-box span {
+        font-size: 30px;
+        line-height: 37px;
+        position: relative;
+        top: 6px;
+        left: 43px;
+    }
+
+    .hero-center-section .second-box .up-box span img {
+        width: 32px;
+        height: 31px;
+        margin-left: 5px;
+    }
+
+    .hero-center-section .second-box .up-box p {
+        font-size: 14px;
+        line-height: 17px;
+        margin: 5px 40px 13px 22px;
+    }
+
+
+    /* Second Box CSS */
+
+    .hero-center-section .second-box {
+        margin: 0px 31px 117px 0px;
+    }
+
+
+    /* Section First Hero Image CSS */
+    .section-1 .img {
+        width: 240px;
+        height: 399px;
+        margin: 60px 0px 0px 140px;
+        float: right;
+        position: absolute;
+        top: 495px;
+    }
+
+    .section-1 .img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* Start Section Second CSS */
+
+    .section-2 {
+        width: 100%;
+        height: 835px;
+    }
+
+    /* Creat A Main Box CSS*/
+    .section-2-main {
+        width: 350px;
+        height: 685px;
+        margin: 100px 32px;
+    }
+
+
+    /* Creat Right side Main Box CSS*/
+    .right-side {
+        width: 350px;
+        height: 484px;
+        position: absolute;
+        margin-top: 0px;
+        top: 1260px;
+    }
+
+
+    /* Post Back Strat Line CSS*/
+    .line {
+        height: 484px;
+        margin-left: 51px;
+    }
+
+    /* First Post Of Jane Coopar CSS */
+    .jane-cooper {
+        width: 350px;
+        height: 199px;
+        position: absolute;
+        left: 0px;
+    }
+
+    .jane-cooper-tital {
+        width: 350px;
+        height: 102px;
+    }
+
+    .jane-coopar-bottom h2 {
+        width: 80px;
+        height: 47px;
+        margin-top: 25px;
+        font-size: 18px;
+        font-weight: 900;
+        line-height: 15px;
+    }
+
+    .jane-coopar-bottom div {
+        width: 100px;
+        height: 97px;
+    }
+
+    /* Jane Coopar Image CSS */
+    .jane-coopar-bottom div img {
+        width: 100%;
+        height: 100%;
+        margin-top: -19px;
+    }
+
+    .jacob-jones {
+        width: 350px;
+        height: 172px;
+        margin-top: 266px;
+        margin-left: 0px;
+    }
+
+    /* Second Post Of Jacob Jones Title CSS */
+
+    .jacob-cooper-tital {
+        width: 350px;
+        height: 75px;
+    }
+
+    .jacob-coopar-bottom h2 {
+        width: 80px;
+        height: 47px;
+        margin-top: 25px;
+        font-size: 18px;
+        font-weight: 900;
+        line-height: 15px;
+    }
+
+    .jacob-coopar-bottom div {
+        width: 100px;
+        height: 97px;
+    }
+
+    /* Jane Coopar Image CSS */
+    .jacob-coopar-bottom div img {
+        width: 100%;
+        height: 100%;
+        margin-top: -19px;
+    }
+
+    /* Second Section Left Side CSS */
+
+    .left-side {
+        width: 350px;
+        height: 34px;
+        margin: 0px;
+        position: absolute;
+        top: 1030px;
+    }
+
+    /* Second Section Left Side Title CSS */
+    .left-side h1 {
+        font-size: 30px;
+        line-height: 31px;
+        margin-bottom: 12px;
+    }
+
+    /* Second Section Left Side Discription CSS */
+
+    .left-side p {
+        margin: 0px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+        margin-bottom: 40px;
+    }
+
+    /* Second Section Left Side Button CSS */
+
+    .left-side button {
+        position: absolute;
+        top: 685px;
+        left: 195px;
+        width: 155px;
+        height: 48px;
+        padding: 12px 32px;
+        line-height: 24px;
+        font-size: 16px;
+    }
+
+    /* Third Section CSS */
+
+    .section-3 {
+        width: 100%;
+        height: 1230px;
+    }
+
+    /* Third Section Heading CSS */
+
+    .section-3 .H2 {
+        width: 349px;
+        height: 36px;
+        margin: 0px 32px 63px 32px;
+    }
+
+    .section-3 h1 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    /* Third Section Post Main Setion CSS */
+
+    .section-3-main {
+        width: 416px;
+        height: 820px;
+        margin: 0px;
+    }
+
+    /* Third Section Posts Boxes CSS */
+
+    .section-3-main .coruse-box {
+        width: 413px;
+        height: 380px;
+        margin-bottom: 60px;
+    }
+
+    .section-3-main .coruse-box-inner {
+        width: 349px;
+        height: 372px;
+        margin: 0px 32px;
+    }
+
+    /* Third Section Posts Boxes Image CSS */
+
+    .section-3-main .coruse-box-inner .course-image {
+        width: 349px;
+        height: 240px;
+        margin: 0px;
+    }
+
+    .section-3-main .coruse-box-inner .course-image img {
+        width: 360px;
+        height: 260px;
+        margin: -5px 0px 0px -5px;
+    }
+
+    /* Third Section Posts Boxes Discription CSS */
+
+    .section-3-main .coruse-box-inner .course-title {
+        width: 349px;
+        height: 72px;
+        margin-top: 30px;
+    }
+
+    .section-3-main .coruse-box-inner .dev-name {
+        width: 264px;
+        height: 72px;
+        font: 24px;
+        font: 900;
+        line-height: 24px;
+    }
+
+    /* Third Section Posts Boxes Clock and HRS CSS */
+
+    .section-3-main .coruse-box-inner .course-title .Clock-side {
+        width: 72px;
+        height: 24px;
+        margin: 24px 0px 24px 26px;
+        font-size: 16px;
+    }
+
+    .section-3-main .coruse-box-inner .course-title .Clock-side img {
+        width: 16px;
+        height: 16px;
+        margin-top: 3px;
+        margin-right: 5px;
+    }
+
+    /* Third Section Posts Boxes Over Line CSS */
+
+    .section-3-main .line {
+        width: 350px;
+        height: 8px;
+        margin-left: 32px;
+    }
+
+    /* Third Section Second Post Boxes CSS */
+
+    .section-3-main .coruse-box2 {
+        width: 416px;
+        height: 480px;
+        margin-top: 30px;
+        margin-left: 0;
+    }
+
+    .section-3-main .coruse-box2 .coruse-box-inner .dev-name {
+        width: 264px;
+        height: 90px;
+        font-size: 12px;
+    }
+
+    .section-3-main .coruse-box2 .coruse-box-inner .course-title .Clock-side {
+        width: 63px;
+        height: 16px;
+        margin: 33px 0px 10px 33px;
+    }
+
+    .section-3-main .coruse-box2 .line {
+        width: 350px;
+        height: 8px;
+        margin-left: 32px;
+        margin-top: 100px;
+        border-radius: 24px;
+        background-color: var(--btn-green);
+    }
+
+
+    /* Third Section Button CSS */
+
+    .section-3 button {
+        position: absolute;
+        top: 3050px;
+        right: -70px;
+    }
+
+    .section-4 {
+        width: 100%;
+        height: 521px;
+    }
+
+    /* Forth Section Main CSS */
+
+    .section-4 .section-4-main {
+        width: 350px;
+        height: 321px;
+        margin: 100px 32px;
+    }
+
+    /* Forth Section Heading CSS */
+
+    .section-4 .section-4-main .heading {
+        width: 260px;
+        height: 36px;
+        margin: 0px 54px;
+    }
+
+    .section-4 .section-4-main .heading h1 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    /* Forth Section Discription CSS */
+
+    .section-4 .section-4-main .heading p {
+        text-wrap: wrap;
+    }
+
+    /* Forth Section AppStore Download CSS */
+    .section-4 .section-4-main .our-app {
+        width: 100%;
+        height: 300px;
+        margin: 0;
+        margin-top: 100px;
+        display: block;
+    }
+
+    .section-4 .section-4-main .our-app .app-stor {
+        height: 84px;
+        margin: 0px 30px 0px 20px;
+        display: flex;
+        margin-bottom: 26px;
+    }
+
+    .section-4 .section-4-main .our-app .app-stor img {
+        width: 60px;
+        width: 60px;
+        margin: 12px 14px 12px 31px;
+    }
+
+    .section-4 .section-4-main .our-app .app-stor h1 {
+        margin-top: 18px;
+    }
+
+    /* Forth Section PlayStore Box CSS */
+
+    .section-4 .section-4-main .our-app .play-stor {
+        height: 84px;
+        margin: 0px 0px 0px 20px;
+    }
+
+    .section-4 .section-4-main .our-app .play-stor img {
+        margin: 12px 14px 12px 31px;
+    }
+
+    .section-4 .section-4-main .our-app .play-stor h1 {
+        margin-top: 18px;
+    }
+    /* Footer CSS */
+footer {
+    width: 100%;
+    height: 883px;
+    padding-top: 60px;
+}
+
+/* Footer Main CSS */
+footer .footer {
+    height: 683px;
+    display: block;
+}
+
+/* Footer Links CSS */
+footer .footer .footer-links {
+    width: 156px;
+    margin-left: 129px;
+    text-align: center;
+}
+
+/* Footer Login Links CSS */
+footer .footer .course-login {
+    width: 89px;
+    height: 164px;
+    margin-left: 162px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+/* Footer Content Section CSS */
+
+footer .footer .footer-content {
+    width: 350px;
+    height: 144px;
+    margin-left: 32px;
+    text-align: center;
+}
+
+/* Links Headin CSS */
+dt {
+    margin-bottom: 14px;
+}
+
+/* Links CSS */
+dd {
+    margin-bottom: 9px;
+    margin-left: 0px;
+}
+
+/* Facebook and Instagrame CSS */
+dd img {
+    margin-top: 16px;
+    margin-right: 24px;
+}
+
+/* Input Of Footer CSS */
+dd input {
+    width: 350px;
+    padding: 3px 0px 4px 14px;
+}
+
+/* Input Submit Button CSS */
+dd button {
+    width: 135px;
+    height: 32px;
+    padding: 1px 27px 1px 28px;
+    position: absolute;
+    right: 132px;
+    top: 4450px;
+}
+
+/* Footer End Of Discription CSS */
+footer .footer-last {
+    width: 350px;
+    height: 28px;
+    margin-left: 32px;
+}
+
+footer .footer-last p {
+    font-size: 14px;
+    line-height: 28px;
+    margin: 40px 0px 70px 0px;
+}
+}
